@@ -1,10 +1,10 @@
 body {
-    background-image: url('/images/cosmos-1853491_1920.jpg');
+    background-image: url('../images/cosmos-1853491_1920.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin: 0; /* Damit keine Standardmargen vom Browser hinzugefügt werden */
-    padding: 0; /* Damit keine Standard-Padding vom Browser hinzugefügt werden */
+    margin: 0;
+    padding: 0;
 }
 
 .formDiv {
