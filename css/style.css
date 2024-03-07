@@ -1,0 +1,38 @@
+body {
+    background-image: url('/images/cosmos-1853491_1920.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0; /* Damit keine Standardmargen vom Browser hinzugefügt werden */
+    padding: 0; /* Damit keine Standard-Padding vom Browser hinzugefügt werden */
+}
+
+.formDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formclass {
+
+    height: 80vh;
+    width: 60vh;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 17.5px );
+-webkit-backdrop-filter: blur( 17.5px );
+border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.736);
+
+    text-align: center;
+    
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
